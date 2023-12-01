@@ -1,0 +1,66 @@
+body {
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/*Create a form container for form tag with shawdow effect and center  and border radius */
+form {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+/*input desing with border radius and padding for input tag username and password 
+ and effect with hover and focus */
+input {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+input:hover {
+  border-color: #999;
+}
+
+input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+} 
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #222;
+}
