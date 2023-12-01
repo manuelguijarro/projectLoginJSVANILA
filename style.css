@@ -75,3 +75,65 @@ button:focus {
 button:active {
   background-color: #222;
 }
+button {
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  width: 50%;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+  /* Add your soft creative color here */
+  background-color: #e6e6e6;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+label {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #333;
+  /* Add your creative and original style here */
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  
+}
+
+
+label:hover {
+  /* Add your hover effect here */
+  background-color: #d9d9d9;
+  text-decoration: underline;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}input {
+  display: inline-block;
+  width: 85%;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #333;
+  /* Add your soft creative color here */
+  background-color: #e6e6e6;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  
+}
+
+input:hover {
+  /* Add your hover effect here */
+  background-color: #d9d9d9;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  /* Add your hover effect here */
+  background-color: #d9d9d9;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  text-decoration: underline;
+}
+
+
