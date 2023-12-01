@@ -43,6 +43,17 @@ input:focus {
   border-color: #333;
 }
 
+
+label {
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: left;
+  color: #333;
+}
+
+label:active {
+  color: #222;
+}
 button {
   border-radius: 5px;
   padding: 10px;
